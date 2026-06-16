@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-brand-bg: var(--brand-bg);
+  --color-brand-bg-sec: var(--brand-bg-sec);
+  --color-brand-card: var(--brand-card);
+  --color-brand-green: var(--brand-green);
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-cyan: var(--brand-cyan);
+  --color-brand-border: var(--brand-border);
+  
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+:root {
+  --brand-bg: #0B0C10;
+  --brand-bg-sec: #111827;
+  --brand-card: #161B22;
+  --brand-green: #10B981;
+  --brand-blue: #3B82F6;
+  --brand-cyan: #00D2FF;
+  --brand-border: rgba(255, 255, 255, 0.08);
+  --brand-text: #FFFFFF;
+  --brand-muted: #9CA3AF;
+  --brand-glass: rgba(22, 27, 34, 0.85);
+}
+
+:root.light {
+  --brand-bg: #E6EFEB; /* Stunning tech-comfort light sage comfort background */
+  --brand-bg-sec: #CBD8D4; /* Slightly darker slate/sage for panel depth */
+  --brand-card: #FFFFFF; /* High contrast clean white for cards */
+  --brand-green: #059669; /* Strong, highly readable Underbug Green */
+  --brand-blue: #1D4ED8; /* Solid deep accent blue */
+  --brand-cyan: #0891B2; /* Cybersecurity cyan */
+  --brand-border: rgba(5, 150, 105, 0.16); /* Sage/green-tinted thin borders */
+  --brand-text: #0A1310; /* Perfect deep green-slate contrast text */
+  --brand-muted: #3D4E48; /* Readable dark-gray label text */
+  --brand-glass: rgba(255, 255, 255, 0.9);
+}
+
+/* Light mode overrides for text readability and high cyber-contrast */
+:root.light {
+  color: var(--brand-text);
+  color-scheme: light;
+}
+
+:root.light body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+:root.light .text-white {
+  color: var(--brand-text) !important;
+}
+
+:root.light .text-gray-100 {
+  color: #0A1310 !important;
+}
+
+:root.light .text-gray-200 {
+  color: #111C18 !important;
+}
+
+:root.light .text-gray-300 {
+  color: #21302A !important;
+}
+
+:root.light .text-gray-400 {
+  color: #384C45 !important;
+}
+
+:root.light .text-gray-500 {
+  color: #4D615A !important;
+}
+
+:root.light .text-gray-600 {
+  color: #637871 !important;
+}
+
+/* Make sure Underbug tactical titles are distinctively green or cyan in light mode */
+:root.light h1.text-white,
+:root.light h2.text-white,
+:root.light h3.text-white {
+  color: #0A1310 !important;
+}
+
+/* Cyber card top accent bars in Light Mode to make components look structured */
+:root.light .bg-brand-card,
+:root.light .bg-brand-card\/45,
+:root.light .bg-brand-card\/25 {
+  border-top: 2px solid var(--brand-green) !important;
+  box-shadow: 0 4px 20px -2px rgba(5, 150, 105, 0.06), 0 2px 8px -1px rgba(10, 19, 16, 0.03) !important;
+}
+
+/* Don't darken text where white is needed on colored buttons/badges */
+:root.light .bg-brand-green .text-white,
+:root.light .bg-brand-green *,
+:root.light .text-brand-bg {
+  color: #FFFFFF !important;
+}
+
+:root.light button.bg-brand-green,
+:root.light button.bg-brand-blue,
+:root.light .bg-brand-green.text-brand-bg,
+:root.light .bg-brand-blue.text-brand-bg,
+:root.light .bg-white.text-brand-bg,
+:root.light button.bg-white.text-brand-bg {
+  color: #FFFFFF !important;
+  background-color: var(--brand-green) !important;
+}
+
+:root.light button.bg-white.text-brand-bg {
+  background-color: var(--brand-green) !important;
+}
+
+:root.light button.bg-brand-green:hover {
+  background-color: #047857 !important;
+}
+
+:root.light .bg-brand-cyan\/10 {
+  background-color: rgba(8, 145, 178, 0.12) !important;
+}
+
+:root.light .bg-brand-green\/10 {
+  background-color: rgba(5, 150, 105, 0.12) !important;
+}
+
+:root.light .bg-brand-blue\/10 {
+  background-color: rgba(29, 78, 216, 0.12) !important;
+}
+
+/* Terminal component integrity in light mode - keep retro code aesthetic */
+:root.light .bg-[#0b0f19],
+:root.light .bg-[#0b0f19] * {
+  color: #4ADE80 !important; /* Retain retro brand green for terminals */
+}
+
+:root.light .bg-[#0b0f19] {
+  background-color: #0B0E14 !important;
+  border-color: rgba(5, 150, 105, 0.25) !important;
+}
+
+:root.light .text-brand-bg {
+  color: var(--brand-bg) !important;
+}
+
+:root.light .bg-brand-card\/45 {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+}
+
+:root.light .bg-brand-card\/25 {
+  background-color: rgba(255, 255, 255, 0.55) !important;
+}
+
+:root.light .border-brand-border\/40 {
+  border-color: rgba(5, 150, 105, 0.14) !important;
+}
+
+:root.light .border-brand-border\/60 {
+  border-color: rgba(5, 150, 105, 0.24) !important;
+}
+
+/* Light mode support for background constellation markings & radar elements */
+:root.light .border-brand-green\/\[0\.04\] {
+  border-color: rgba(5, 150, 105, 0.12) !important;
+}
+
+:root.light .border-brand-green\/\[0\.03\] {
+  border-color: rgba(5, 150, 105, 0.08) !important;
+}
+
+:root.light .border-brand-green\/\[0\.015\] {
+  border-color: rgba(5, 150, 105, 0.05) !important;
+}
+
+:root.light .via-brand-green\/20 {
+  background-image: linear-gradient(to right, transparent, rgba(5, 150, 105, 0.35) 50%, transparent) !important;
+}
+
+:root.light .bg-brand-green {
+  background-color: var(--brand-green) !important;
+}
+
+:root.light .text-brand-green {
+  color: var(--brand-green) !important;
+}
+
+:root.light .text-brand-cyan {
+  color: var(--brand-cyan) !important;
+}
+
+:root.light .text-brand-blue {
+  color: var(--brand-blue) !important;
+}
+
+@keyframes scan {
+  0% { transform: translateY(-100%); opacity: 0; }
+  10% { opacity: 0.8; }
+  90% { opacity: 0.8; }
+  100% { transform: translateY(100%); opacity: 0; }
+}
+
+/* Custom premium scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0C10;
+}
+::-webkit-scrollbar-thumb {
+  background: #161B22;
+  border-radius: 9999px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10B981;
+}
+
+/* Cyber command style utility overrides */
+.glow-cyber-green {
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.15);
+}
+.glow-cyber-blue {
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.15);
+}
+.glow-cyber-cyan {
+  box-shadow: 0 0 30px rgba(0, 210, 255, 0.2);
+}
+
+.bg-glass {
+  background-color: rgba(22, 27, 34, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.text-gradient-cyan-blue {
+  background: linear-gradient(135deg, #00D2FF 0%, #3B82F6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-cyber-green {
+  background: linear-gradient(135deg, #10B981 0%, #00F4B9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-cyber-gradient {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 210, 255, 0.05) 0%, rgba(11, 12, 16, 0) 70%);
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "UnderBug",
+  "description": "Segurança Cibernética Premium: Pentest, Gestão de Vulnerabilidades, EDR, Cloud Security e Inteligência em Ameaças para Operações Críticas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,36 @@
+{
+  "short_name": "UnderBug",
+  "name": "UnderBug - Segurança Cibernética B2B Premium",
+  "description": "Segurança Cibernética Premium B2B: Pentest, Engenharia de Software Defensivo e Infraestrutura de Rede Segura para Operações Críticas.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0a0a0c",
+  "theme_color": "#0d0e12",
+  "display": "standalone",
+  "orientation": "portrait"
+}
