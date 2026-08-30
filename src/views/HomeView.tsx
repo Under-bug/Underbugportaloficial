@@ -198,7 +198,7 @@ export default function HomeView({ onNavigate, onSelectPlatform, onSelectService
                   onNavigate('contato');
                 }
               }}
-              className="w-full sm:w-auto bg-brand-green hover:bg-[#0fd996] text-brand-bg font-display font-bold text-xs tracking-wider py-4 px-8 rounded-xl transition-all duration-200 cursor-pointer shadow-lg shadow-brand-green/20"
+              className="w-full sm:w-auto bg-brand-green hover:bg-[#3ae0a9] text-brand-bg font-display font-bold text-xs tracking-wider py-4 px-8 rounded-xl transition-all duration-200 cursor-pointer shadow-lg shadow-brand-green/20"
               id="cta-diag-primary"
             >
               AGENDAR CONSULTORIA TÉCNICA
@@ -718,7 +718,7 @@ export default function HomeView({ onNavigate, onSelectPlatform, onSelectService
                 href="https://2gjeai.share-eu1.hsforms.com/2nSaRnRN7T8yJA5VbDLAPuQ" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="px-3 py-1.5 bg-brand-green hover:bg-[#0fd996] text-brand-bg text-[10px] font-display font-black rounded-lg transition-colors inline-block w-full sm:w-auto font-bold"
+                className="px-3 py-1.5 bg-brand-green hover:bg-[#3ae0a9] text-brand-bg text-[10px] font-display font-black rounded-lg transition-colors inline-block w-full sm:w-auto font-bold"
               >
                 ABRIR FORMULÁRIO COMPLETO
               </a>
@@ -771,7 +771,7 @@ export default function HomeView({ onNavigate, onSelectPlatform, onSelectService
                   onNavigate('contato');
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
-                className="bg-brand-green hover:bg-[#0fd996] text-brand-bg font-display font-bold text-xs tracking-wider py-4 px-10 rounded-xl transition-all duration-200 cursor-pointer shadow-lg shadow-brand-green/25 font-extrabold text-black"
+                className="bg-brand-green hover:bg-[#3ae0a9] text-brand-bg font-display font-bold text-xs tracking-wider py-4 px-10 rounded-xl transition-all duration-200 cursor-pointer shadow-lg shadow-brand-green/25 font-extrabold text-black"
               >
                 SOLICITAR DIAGNÓSTICO DO MEU NEGÓCIO
               </button>

@@ -62,7 +62,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 </button>
               </li>
               <li className="pt-1 border-t border-brand-border/20 mt-1">
-                <button onClick={() => { onNavigate('ferramentas'); window.scrollTo({top:0, behavior:'smooth'}); }} className="text-brand-green hover:text-[#0fd996] font-semibold transition-colors cursor-pointer text-left flex items-center">
+                <button onClick={() => { onNavigate('ferramentas'); window.scrollTo({top:0, behavior:'smooth'}); }} className="text-brand-green hover:text-[#3ae0a9] font-semibold transition-colors cursor-pointer text-left flex items-center">
                   Ferramentas Free de Teste
                 </button>
               </li>
@@ -108,12 +108,12 @@ export default function Footer({ onNavigate }: FooterProps) {
                 placeholder="Seu e-mail corporativo"
                 className="bg-brand-bg-sec border border-brand-border text-xs px-3 py-2 rounded-l-lg text-white w-full focus:outline-none focus:border-brand-green"
               />
-              <button className="bg-brand-green text-brand-bg hover:bg-[#0fd996] px-3 rounded-r-lg font-bold text-xs" onClick={() => alert('Obrigado! Cadastro efetuado.')}>
+              <button className="bg-brand-green text-brand-bg hover:bg-[#3ae0a9] px-3 rounded-r-lg font-bold text-xs" onClick={() => alert('Obrigado! Cadastro efetuado.')}>
                 Assinar
               </button>
             </div>
             <div className="flex space-x-2 text-xs text-gray-400">
-              <span className="flex items-center text-[10px] text-[#10B981] font-mono border border-[#10B981]/20 rounded bg-[#10B981]/5 px-1.5 py-0.5">
+              <span className="flex items-center text-[10px] text-[#0fd996] font-mono border border-[#0fd996]/20 rounded bg-[#0fd996]/5 px-1.5 py-0.5">
                 <Award className="w-3 h-3 mr-1" /> Pentest Certificado pela OSCP & CISSP
               </span>
             </div>

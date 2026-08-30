@@ -41,8 +41,8 @@ export default function TechMotionBackground() {
         className="absolute inset-0 opacity-[0.035]"
         style={{
           backgroundImage: `
-            linear-gradient(to right, #4ade80 1px, transparent 1px),
-            linear-gradient(to bottom, #4ade80 1px, transparent 1px)
+            linear-gradient(to right, #0fd996 1px, transparent 1px),
+            linear-gradient(to bottom, #0fd996 1px, transparent 1px)
           `,
           backgroundSize: '48px 48px',
         }}
@@ -151,7 +151,7 @@ export default function TechMotionBackground() {
           style={{
             width: node.size,
             height: node.size,
-            boxShadow: '0 0 6px rgba(74, 222, 128, 0.4)',
+            boxShadow: '0 0 6px rgba(15, 217, 150, 0.4)',
           }}
         />
       ))}
@@ -166,7 +166,7 @@ export default function TechMotionBackground() {
             top: `${track.startY}%`,
             width: `${track.length}px`,
             height: '1px',
-            background: 'linear-gradient(90deg, rgba(74,222,128,0) 0%, rgba(74,222,128,0.15) 50%, rgba(74,222,128,0) 100%)',
+            background: 'linear-gradient(90deg, rgba(15,217,150,0) 0%, rgba(15,217,150,0.15) 50%, rgba(15,217,150,0) 100%)',
           }}
         >
           {/* Pulsing signal bullet running down the circuit coordinate */}
@@ -180,7 +180,7 @@ export default function TechMotionBackground() {
               repeat: Infinity,
               ease: 'easeInOut',
             }}
-            className="absolute top-1/2 -translate-y-1/2 w-1 h-1 rounded-full bg-brand-green/80 filter drop-shadow-[0_0_2px_rgba(74,222,128,0.8)]"
+            className="absolute top-1/2 -translate-y-1/2 w-1 h-1 rounded-full bg-brand-green/80 filter drop-shadow-[0_0_2px_rgba(15,217,150,0.8)]"
           />
         </div>
       ))}

@@ -137,10 +137,10 @@ export default function InteractiveTopology() {
           {/* Connected Lines SVG overlay */}
           <svg className="absolute inset-0 w-full h-full pointer-events-none opacity-20">
             <line x1="20%" y1="25%" x2="50%" y2="50%" stroke="#3B82F6" strokeWidth="2" strokeDasharray="4 4" />
-            <line x1="80%" y1="25%" x2="50%" y2="50%" stroke="#10B981" strokeWidth="2" />
+            <line x1="80%" y1="25%" x2="50%" y2="50%" stroke="#0fd996" strokeWidth="2" />
             <line x1="20%" y1="75%" x2="50%" y2="50%" stroke="#00D2FF" strokeWidth="2" strokeDasharray="4 2" />
             <line x1="80%" y1="75%" x2="50%" y2="50%" stroke="#D97706" strokeWidth="2" />
-            <line x1="85%" y1="20%" x2="85%" y2="70%" stroke="#10B981" strokeWidth="1" />
+            <line x1="85%" y1="20%" x2="85%" y2="70%" stroke="#0fd996" strokeWidth="1" />
           </svg>
 
           {/* Node Absolute Elements or Flex grid representation */}

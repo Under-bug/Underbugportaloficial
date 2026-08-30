@@ -298,7 +298,7 @@ export default function PlataformaView({ initialPlatformId = 'secmaturity', onNa
               </div>
               <button
                 onClick={() => onNavigate('contato')}
-                className="w-full sm:w-auto bg-brand-green hover:bg-[#0fd996] text-brand-bg transition-colors font-display font-bold text-xs py-3 px-6 rounded-xl flex items-center justify-center space-x-1"
+                className="w-full sm:w-auto bg-brand-green hover:bg-[#3ae0a9] text-brand-bg transition-colors font-display font-bold text-xs py-3 px-6 rounded-xl flex items-center justify-center space-x-1"
               >
                 <span>Diagnóstico Com Solução Proprietária</span>
                 <ArrowRight className="w-4 h-4" />
@@ -422,7 +422,7 @@ export default function PlataformaView({ initialPlatformId = 'secmaturity', onNa
                   <button
                     onClick={handleExplainLog}
                     disabled={isExplaining}
-                    className="w-full py-2 bg-brand-green hover:bg-[#0fd996] text-brand-bg font-display font-bold text-xs rounded-xl tracking-wider transition-colors cursor-pointer"
+                    className="w-full py-2 bg-brand-green hover:bg-[#3ae0a9] text-brand-bg font-display font-bold text-xs rounded-xl tracking-wider transition-colors cursor-pointer"
                   >
                     {isExplaining ? 'PROCESSANDO EXPLICAÇÃO...' : 'TRADUZIR EM TERMOS DE NEGÓCIO'}
                   </button>
@@ -537,7 +537,7 @@ export default function PlataformaView({ initialPlatformId = 'secmaturity', onNa
                     <button
                       onClick={handleVulnScan}
                       disabled={isVulnScanning}
-                      className="bg-brand-green hover:bg-[#0fd996] text-brand-bg font-display font-bold text-xs px-4 rounded-xl shrink-0 transition-colors cursor-pointer"
+                      className="bg-brand-green hover:bg-[#3ae0a9] text-brand-bg font-display font-bold text-xs px-4 rounded-xl shrink-0 transition-colors cursor-pointer"
                     >
                       {isVulnScanning ? 'SCANNING...' : 'SCAN'}
                     </button>
