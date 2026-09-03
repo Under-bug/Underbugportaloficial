@@ -305,7 +305,7 @@ export default function ContatoView({ onNavigate }: ContatoViewProps) {
                           const wrapper = document.getElementById('contato-deep-view');
                           if (wrapper) wrapper.scrollIntoView({ behavior: 'smooth' });
                         }}
-                        className="inline-flex items-center space-x-1.5 bg-brand-green hover:bg-[#3ae0a9] text-brand-bg text-xs font-display font-black px-5 py-2.5 rounded-xl transition-all cursor-pointer font-bold w-full sm:w-auto justify-center shadow-lg shadow-brand-green/10"
+                        className="inline-flex items-center space-x-1.5 bg-brand-green hover:bg-[#46ddab] text-brand-bg text-xs font-display font-black px-5 py-2.5 rounded-xl transition-all cursor-pointer font-bold w-full sm:w-auto justify-center shadow-lg shadow-brand-green/10"
                       >
                         <span>Avançar para Agendamento da Consultoria</span>
                         <ChevronRight className="w-4 h-4" />

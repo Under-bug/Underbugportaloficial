@@ -341,7 +341,7 @@ export default function FerramentasView({ onNavigate }: FerramentasViewProps) {
                   <button
                     onClick={() => simulateDomainAnalysis(domainInput)}
                     disabled={isRunning}
-                    className="w-full bg-brand-green hover:bg-[#3ae0a9] text-brand-bg text-xs font-display font-medium py-3 rounded-xl transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2 font-bold"
+                    className="w-full bg-brand-green hover:bg-[#46ddab] text-brand-bg text-xs font-display font-medium py-3 rounded-xl transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2 font-bold"
                   >
                     {isRunning ? <RefreshCw className="w-3.5 h-3.5 animate-spin" /> : <Search className="w-3.5 h-3.5" />}
                     <span>{isRunning ? 'Auditando Registros...' : 'Testar Domínio Grátis'}</span>
@@ -696,7 +696,7 @@ export default function FerramentasView({ onNavigate }: FerramentasViewProps) {
                           onNavigate('contato');
                           window.scrollTo({ top: 0, behavior: 'smooth' });
                         }}
-                        className="inline-flex items-center space-x-1.5 bg-brand-green hover:bg-[#3ae0a9] text-brand-bg text-xs font-display font-bold px-5 py-3 rounded-xl transition-all cursor-pointer font-black shrink-0 w-full sm:w-auto justify-center shadow-lg shadow-brand-green/15"
+                        className="inline-flex items-center space-x-1.5 bg-brand-green hover:bg-[#46ddab] text-brand-bg text-xs font-display font-bold px-5 py-3 rounded-xl transition-all cursor-pointer font-black shrink-0 w-full sm:w-auto justify-center shadow-lg shadow-brand-green/15"
                       >
                         <span>Preencher Formulário Comercial</span>
                         <ArrowRight className="w-3.5 h-3.5" />

@@ -649,7 +649,7 @@ export default function ServicosView({ initialServiceId = 'pentest', onNavigate 
               </p>
               <button
                 onClick={() => onNavigate('contato')}
-                className="w-full sm:w-auto bg-brand-green hover:bg-[#3ae0a9] text-brand-bg transition-colors font-display font-bold text-xs py-3.5 px-6 rounded-xl flex items-center justify-center space-x-2 shadow-lg shadow-brand-green/10"
+                className="w-full sm:w-auto bg-brand-green hover:bg-[#46ddab] text-brand-bg transition-colors font-display font-bold text-xs py-3.5 px-6 rounded-xl flex items-center justify-center space-x-2 shadow-lg shadow-brand-green/10"
               >
                 <span>Solicitar Proposta Desse Escopo</span>
                 <ArrowRight className="w-4 h-4" />

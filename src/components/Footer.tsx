@@ -62,7 +62,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 </button>
               </li>
               <li className="pt-1 border-t border-brand-border/20 mt-1">
-                <button onClick={() => { onNavigate('ferramentas'); window.scrollTo({top:0, behavior:'smooth'}); }} className="text-brand-green hover:text-[#3ae0a9] font-semibold transition-colors cursor-pointer text-left flex items-center">
+                <button onClick={() => { onNavigate('ferramentas'); window.scrollTo({top:0, behavior:'smooth'}); }} className="text-brand-green hover:text-[#46ddab] font-semibold transition-colors cursor-pointer text-left flex items-center">
                   Ferramentas Free de Teste
                 </button>
               </li>
@@ -108,7 +108,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 placeholder="Seu e-mail corporativo"
                 className="bg-brand-bg-sec border border-brand-border text-xs px-3 py-2 rounded-l-lg text-white w-full focus:outline-none focus:border-brand-green"
               />
-              <button className="bg-brand-green text-brand-bg hover:bg-[#3ae0a9] px-3 rounded-r-lg font-bold text-xs" onClick={() => alert('Obrigado! Cadastro efetuado.')}>
+              <button className="bg-brand-green text-brand-bg hover:bg-[#46ddab] px-3 rounded-r-lg font-bold text-xs" onClick={() => alert('Obrigado! Cadastro efetuado.')}>
                 Assinar
               </button>
             </div>

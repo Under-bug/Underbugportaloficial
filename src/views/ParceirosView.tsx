@@ -216,7 +216,7 @@ export default function ParceirosView({ onNavigate }: ParceirosViewProps) {
           </p>
           <button 
             onClick={() => onNavigate('contato')}
-            className="mt-2 inline-flex items-center space-x-2 bg-brand-green hover:bg-[#3ae0a9] text-brand-bg text-xs font-display font-bold px-6 py-3 rounded-xl transition-all cursor-pointer"
+            className="mt-2 inline-flex items-center space-x-2 bg-brand-green hover:bg-[#46ddab] text-brand-bg text-xs font-display font-bold px-6 py-3 rounded-xl transition-all cursor-pointer"
           >
             <span>Solicitar Análise de Configuração</span>
             <ArrowRight className="w-3.5 h-3.5" />
