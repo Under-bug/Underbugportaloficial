@@ -21,7 +21,7 @@
   --brand-bg: #0B0C10;
   --brand-bg-sec: #111827;
   --brand-card: #161B22;
-  --brand-green: #10B981;
+  --brand-green: #0fd996;
   --brand-blue: #3B82F6;
   --brand-cyan: #00D2FF;
   --brand-border: rgba(255, 255, 255, 0.08);
@@ -34,7 +34,7 @@
   --brand-bg: #E6EFEB; /* Stunning tech-comfort light sage comfort background */
   --brand-bg-sec: #CBD8D4; /* Slightly darker slate/sage for panel depth */
   --brand-card: #FFFFFF; /* High contrast clean white for cards */
-  --brand-green: #059669; /* Strong, highly readable Underbug Green */
+  --brand-green: #068a5f; /* Verde oficial #0fd996 escurecido para contraste no light */
   --brand-blue: #1D4ED8; /* Solid deep accent blue */
   --brand-cyan: #0891B2; /* Cybersecurity cyan */
   --brand-border: rgba(5, 150, 105, 0.16); /* Sage/green-tinted thin borders */
@@ -219,7 +219,7 @@
   border: 1px solid rgba(255,255,255,0.05);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #10B981;
+  background: #0fd996;
 }
 
 /* Cyber command style utility overrides */
@@ -246,7 +246,7 @@
 }
 
 .text-gradient-cyber-green {
-  background: linear-gradient(135deg, #10B981 0%, #00F4B9 100%);
+  background: linear-gradient(135deg, #0fd996 0%, #00F4B9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

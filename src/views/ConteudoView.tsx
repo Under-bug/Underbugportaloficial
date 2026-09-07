@@ -326,7 +326,7 @@ export default function ConteudoView({ onNavigate }: ConteudoViewProps) {
                 <p className="text-[10px] text-gray-500 font-mono">UNDERBUG INTEL LAB REPORT</p>
                 <button
                   onClick={() => { setSelectedPost(null); onNavigate('contato'); }}
-                  className="bg-brand-green hover:bg-[#0fd996] text-brand-bg px-4 py-2 rounded-xl text-xs font-display font-bold transition-all cursor-pointer"
+                  className="bg-brand-green hover:bg-[#46ddab] text-brand-bg px-4 py-2 rounded-xl text-xs font-display font-bold transition-all cursor-pointer"
                 >
                   Agendar auditoria desse risco
                 </button>
